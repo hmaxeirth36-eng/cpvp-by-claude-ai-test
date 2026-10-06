@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.example.cpvputils.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ParticleManagerMixin", "InGameOverlayRendererMixin"],
+  "injectors": { "defaultRequire": 0 }
+}

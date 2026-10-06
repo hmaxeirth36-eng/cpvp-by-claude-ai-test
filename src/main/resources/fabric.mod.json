@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "cpvputils",
+  "version": "1.0.0",
+  "name": "CPVP Utils",
+  "description": "Lag cut (explosion particles, fire overlay) + respawn anchor charge / glowstone HUD.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.cpvputils.CpvpUtilsClient"] },
+  "mixins": ["cpvputils.mixins.json"],
+  "depends": { "fabricloader": ">=0.17.0", "minecraft": "1.21.11", "java": ">=21", "fabric-api": "*" }
+}
